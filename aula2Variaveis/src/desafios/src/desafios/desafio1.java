@@ -10,7 +10,7 @@ public class desafio1 {
 		Scanner sc = new Scanner(System.in);
 		
 		
-		System.out.println("didgite a temperatura em celsius: ");
+		System.out.println("dgite a temperatura em celsius: ");
 		double celsius = sc.nextDouble();
 		
 		double F = (celsius * 1.8) + 32;
