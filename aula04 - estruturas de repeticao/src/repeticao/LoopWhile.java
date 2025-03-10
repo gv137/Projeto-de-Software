@@ -16,7 +16,7 @@ public class LoopWhile {
 		
 		int i = 0;
 		
-		while (!(login.equals(loginSalvo)) && !(senha.equals(senhaSalva)) && (i<5)) {
+		while ((!(login.equals(loginSalvo)) || !(senha.equals(senhaSalva))) && (i<5)) {
 			System.out.println("informe seu login: ");
 			login = sc.nextLine();
 			
@@ -29,7 +29,7 @@ public class LoopWhile {
 		if (login.equals(loginSalvo) && senha.equals(senhaSalva)){
 			System.out.println("Acesso liberado");
 		}else {
-			System.out.println("Senha ou Login errados");
+			System.out.println("Senha ou login incorreto");
 		}
 		
 		
